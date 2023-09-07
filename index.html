@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Michelangeli - Mercatino prodotti artigianali</title>
+    <meta
+      name="description"
+      content="Mercatino di prodotti artigianali, fatti in casa. Prodotti come collane, bracciali, orecchini, saponi, gessi, tutti fatti con materiale di qualità ad esempio pelle, acciaio inox, vetro, murano, svarowsky"
+    />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <!--<h1><a href="index.html"><strong>Michelangeli</strong> by Fennex</a></h1>-->
+        <div class="filter">
+          <label for="articles_categories">Filtri</label>
+          <select
+            id="articles_categories"
+            onchange="select_articles_list($(this).val()); home_next_click();"
+          >
+            <!--<option value=""><em>Tutte le categorie</em></option>-->
+          </select>
+        </div>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#footer" onclick="scrolltop()"
+                ><h1 id="logo">Michelangeli</h1></a
+              >
+            </li>
+            <li>
+              <div
+                class="icon myicon fa-sound-off"
+                onclick="sound_toggle(this)"
+              ></div>
+            </li>
+            <!--
+			<li>
+				<div class="icon myicon fa-filter" onclick=""></div>
+			</li>
+			-->
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Header -->
+      <div id="home">
+        <h1>Michelangeli</h1>
+        <section>
+          <h2>La mia storia</h2>
+          <p>
+            Grazie alla mia insegnante delle elementari ho coltivato la mia
+            innata manualità e, con lei, ho imparato a svilupparla in molte
+            direzioni. Alle scuole superiori mi sono appassionata ai gessi...
+            angeli... e da qui ho preso spunto: Michelangeli. Per anni ho
+            prodotto angeli in gesso e da qualche anno uso solamente polvere di
+            ceramica di qualità. Poi, ho iniziato a lavorare con le perle; mi
+            piaceva produrre orecchini. In seguito sono passata ai bracciali e
+            collane. In realtà avrei voluto provare a fare tutto quello che
+            vedevo. Così ho iniziato a studiare le varie tecniche per produrre i
+            saponi e dopo diversi mesi ho prodotto con soddisfazione i miei
+            primi saponi. In questo sito troverete alcuni dei miei prodotti.
+            Essendo un po’ artista, mi annoia riprodurre gli stessi articoli
+            tali e quali ai precedenti, per cui di solito sono pezzi unici.
+            Alcuni saranno già stati venduti ma potrete chiedermi di produrne
+            uno il più possibile uguale a quello in foto e io vedrò di
+            accontentarvi. Posso personalizzare il bracciale in base alla misura
+            del vostro polso o produrre orecchini, collane, bracciali con perle,
+            pietre dure, cristalli a vostro piacimento.
+          </p>
+        </section>
+        <section>
+          <h2>Contattami!</h2>
+          <ul class="icons">
+            <li>
+              <a
+                href="mailto:michelangeli@yahoo.it?subject=Richiesta informazioni"
+                class="icon fa-envelope"
+                ><span class="label">Envelope</span></a
+              >
+            </li>
+            <li>
+              <a href="tel:3334445555" class="icon fa-phone"
+                ><span class="label">Phone</span></a
+              >
+            </li>
+            <!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>-->
+          </ul>
+        </section>
+        <section>
+          <h2>Prossimi mercatini!</h2>
+          <p class="markets"></p>
+        </section>
+
+        <p class="copyright padding align-center">
+          &copy; Powered by <a href="http://www.fennex.it">Fennex</a>.
+        </p>
+
+        <div class="next">
+          <div class="next-container">
+            <div class="next-img" onclick="home_next_click()"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main -->
+      <div id="main"></div>
+
+      <!-- footer -->
+      <footer class="align-center">
+        <section>
+          <ul class="icons margin">
+            <li>
+              <a
+                href="mailto:michelangeli@yahoo.it?subject=Richiesta informazioni"
+                class="icon fa-envelope"
+                ><span class="label">Envelope</span></a
+              >
+            </li>
+            <li>
+              <a href="tel:3334445555" class="icon fa-phone"
+                ><span class="label">Phone</span></a
+              >
+            </li>
+            <!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>-->
+          </ul>
+        </section>
+        <div class="copyright padding">
+          &copy; Powered by <a href="http://www.fennex.it">Fennex</a>.
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/db.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.poptrox.min.js"></script>
+    <script src="js/browser.min.js"></script>
+    <script src="js/breakpoints.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/markets.js"></script>
+    <script src="js/articles.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
