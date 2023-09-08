@@ -329,25 +329,22 @@ var articles = [
 
 
 var markets = [
-/*
 	{
-		insert: new Date("2018/08/14 23:55")
-		,title: "Mercatino figo2"
-		,date: new Date("2018/08/16 23:55")
-		,place: "Treviso"
+		insert: new Date("2023/09/08 08:00")
+		,title: "Mercatino Cisan di Valmarino"
+		,date: new Date("2023/09/14 12:00")
+		,place: "Italia - Treviso"
 	}
 	,{
-		insert: new Date("2018/08/14 23:55")
-		,title: "Mercatino figo2"
-		,date: new Date("2018/08/15 23:55")
-		,place: "Treviso"
+		insert: new Date("2023/09/08 08:00")
+		,title: "Mercatino dell artigianato"
+		,date: new Date("2025/08/14 23:55")
+		,place: "Francia - Parigi"
 	}
 	,{
-		insert: new Date("2018/08/14 23:55")
-		,title: "Mercatino figo"
-		,date: new Date("2018/08/13 23:55")
-		,place: "Mogliano veneto"
+		insert: new Date("2023/09/08 08:00")
+		,title: "Sagra sant Angelo Alto"
+		,date: new Date("2051/01/01 00:00")
+		,place: "Italia - Treviso"
 	}
-	*/
-
 ];

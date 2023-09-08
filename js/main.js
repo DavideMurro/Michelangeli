@@ -282,9 +282,10 @@ function load_thumbs() {
 			});
 }
 
+function onPopupClick(event, elem) {
+}
+
 function onPopupClickCaption(event, elem) {
-	event.preventDefault();
-	event.stopPropagation();
 	//$(elem).find(".more-info").toggleClass("fa-window-maximize");
 	//$(elem).find(".more-info").toggleClass("fa-window-minimize");
 	$(elem).find(".more-info").slideToggle(200);
