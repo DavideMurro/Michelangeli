@@ -27,12 +27,40 @@ This site is developed started from a template, it is written with HTML, CSS and
 ## Database
 Not having a server side it was decided to make a database with a js file (***db.js***). <br>
 The tables are simple arrays of objects and for each there is a js file that manages it.
+
 - **articles**
   Articles made by the merchant
 - **markets**
   All events where the merchant shows his articles live
 - **categories**
   This is a simple array of possible article categories
+
+To insert an element into DB just add an object to array into db.js file <br>
+Here an example of ***articles*** array (table of DB):
+```javascript
+var articles = [
+	{
+		insert: new Date("2018/07/15 19:50")
+		,img_thumb: "images/articles/thumbs/collana_lapislazzuli.jpeg"
+		,img_full: "images/articles/fulls/collana_lapislazzuli.jpeg"
+		,title: "Collana di lapislazzuli"
+		,description: "Collana di lapislazzuli 67cm circa con copriperle e rondelle con brillantini. Accessori e chiusura in acciaio inox."
+		,category: 0
+		,price: 30.00
+		,size: [67]
+	}
+	,{
+		insert: new Date("2018/07/15 19:51")
+		,img_thumb: "images/articles/thumbs/collana_ceramica.jpeg"
+		,img_full: "images/articles/fulls/collana_ceramica.jpeg"
+		,title: "Collana in ceramica"
+		,description: "Collana in ceramica cm 80 con rondelle con zirconi artificiali e chiusura in acciaio inox."
+		,category: 0
+		,price: 25.00
+		,size: [80]
+	}
+]
+```
 
 ## HTML structure
 The site is made in one page, creating the skeleton in HTML and then including parts and information by javascript:
