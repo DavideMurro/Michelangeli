@@ -88,6 +88,6 @@ The site is made in one page, creating the skeleton in HTML and then including p
 
 - Demo link: https://davidemurro.github.io/Michelangeli/
 - Screenshots:
-  ![davidemurro github io_Michelangeli_](https://github.com/DavideMurro/Michelangeli/assets/118051417/957a6549-d354-41fd-8b3a-dce6d0e5f77b)
-  ![davidemurro github io_Michelangeli_(2)](https://github.com/DavideMurro/Michelangeli/assets/118051417/cfd90f6f-0126-4e7f-82ce-ad61472fdce3)
-  ![davidemurro github io_Michelangeli_(3)](https://github.com/DavideMurro/Michelangeli/assets/118051417/27f32c07-6e72-4f29-8808-3d0490dd8c08)
+  ![davidemurro github io_Michelangeli_](https://github.com/DavideMurro/Michelangeli/assets/118051417/22e9f29e-8d63-40d9-9288-e58dce027527)
+  ![davidemurro github io_Michelangeli_(mobile)](https://github.com/DavideMurro/Michelangeli/assets/118051417/cfd90f6f-0126-4e7f-82ce-ad61472fdce3)
+  ![davidemurro github io_Michelangeli_show-collana](https://github.com/DavideMurro/Michelangeli/assets/118051417/7fd9cdd6-2750-44c3-bc6c-c535aad357f4)
