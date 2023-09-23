@@ -1110,7 +1110,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-image: url("images/close.svg");
+			background-image: url("../images/icons/close.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 1.5em;
@@ -1218,7 +1218,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-image: url("images/close.svg");
+			background-image: url("../images/icons/close.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 1.5em;
@@ -1237,7 +1237,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-image: url("images/arrow.svg");
+			background-image: url("../images/icons/arrow.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 1.5em;
@@ -1311,7 +1311,7 @@ input, select, textarea {
 			-webkit-animation: spinner 1s infinite linear !important;
 			-ms-animation: spinner 1s infinite linear !important;
 			animation: spinner 1s infinite linear !important;
-			background-image: url("images/spinner.svg");
+			background-image: url("../images/icons/spinner.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -1431,7 +1431,7 @@ input, select, textarea {
 			-webkit-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s, backdrop-filter 0.35s;
 			-ms-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s, backdrop-filter 0.35s;
 			transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s, backdrop-filter 0.35s;
-			background-image: url("images/spinner.svg");
+			background-image: url("../images/icons/spinner.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -1682,7 +1682,7 @@ input, select, textarea {
      			width: 4em;
      			margin: auto;
 
-			    background-image: url(images/arrow.svg);
+			    background-image: url(../images/icons/arrow.svg);
 			    background-position: center;
 			    background-repeat: no-repeat;
 			    background-size: 1.5em;
