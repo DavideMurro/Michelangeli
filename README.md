@@ -86,7 +86,7 @@ The site is made in one page, creating the skeleton in HTML and then including p
 
 ## Demo link
 
-https://davidemurro.github.io/Michelangeli/
+https://davide-murro.github.io/michelangeli/
 
 ## Screenshots
 
